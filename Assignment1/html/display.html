@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/display.css" />
+  </head>
+  <body>
+    <header>
+      <span class="logos">
+        <a href="../html/home.html" class="logo">e!</a>
+      </span>
+      <span class="buttons">
+        <a href="#" class="login">Login</a>
+        <a href="#" class="creat">Create an account</a>
+      </span>
+    </header>
+
+    <section>
+      <div class="title">Breakfast Places in Mumbai</div>
+      <article class="filter">
+        <p class="main-title">Filters</p>
+        <p class="select">Select Location</p>
+        <select id="location" name="city">
+          <option value="" hidden>Select Location</option>
+          <option value="">Bandra</option>
+          <option value="">Andheri</option>
+          <option value="">Colaba</option>
+          <option value="">Malabar Hill</option>
+          <option value="">Mulund</option>
+          <option value="">Fort Mumbai</option>
+          <option value="">Navi Mumbai</option>
+          <option value="">Thane</option>
+          <option value="">Worli</option>
+          <option value="">Dadar</option>
+          <option value="">Parel</option>
+          <option value="">Jawahar</option>
+        </select>
+
+        <p class="select">Cuisine</p>
+        <div class="cuisine">
+        <input type="checkbox" name="cuisine" id="" />
+        <label for="">North Indian</label><br />
+        <input type="checkbox" name="cuisine" id="" />
+        <label for="">South Indian</label><br />
+        <input type="checkbox" name="cuisine" id=""/>
+        <label for="">Chinese</label><br />
+        <input type="checkbox" name="cuisine" id=""/>
+        <label for="">Fast Food</label><br />
+        <input type="checkbox" name="cuisine" id="" />
+        <label for="">Street Food</label><br />
+      </div>
+
+        <p class="select">Cost For Two</p>
+        <div class="cuisine">
+        <input type="radio" name="cost" id="" />
+        <label for="">Less than ` 500</label><br />
+        <input type="radio" name="cost" id="" />
+        <label for="">`500 to ` 1000</label><br />
+        <input type="radio" name="cost" id="" />
+        <label for="">`1000 to ` 1500</label><br />
+        <input type="radio" name="cost" id="" />
+        <label for="">`1500 to ` 2000</label><br />
+        <input type="radio" name="cost" id="" />
+        <label for="">`2000+</label>
+      </div>
+
+        <p class="short">Sort</p>
+        <div class="cuisine">
+        <input type="radio" name="sort" id="" />
+        <label for="">Price Low to high</label><br />
+        <input type="radio" name="sort" id="" />
+        <label for="">Price high to low</label>
+      </div>
+      </div>
+      </article>
+
+      <article class="result1">
+        <img src="../image/breakfast.png" alt="" class="menu-image"/ >
+          <div class="menu-text">
+            <h3>The Big Chill Cakery</h3>
+            <p>FORT</p>
+            <p id="address">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+            <div class="price">
+            <hr class="underline" />
+            <p id="option">CUISINE :Bakery</p>
+            <p>COST FOR TWO : ₹700</p>
+          </div>
+          </div>
+      </article>
+      <article class="result2">
+          <img src="../image/breakfast.png" alt="" class="menu-image"/ >
+          <div class="menu-text">
+            <h3>The Bake Shop</h3>
+            <p>FORT</p>
+            <p id="address">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+            <div class="price">
+            <hr class="underline" />
+            <p id="option">CUISINE: Bakery</p>
+            <p>COST FOR TWO : ₹700</p>
+          </div>
+          </div>
+      </article>
+      <div class="pagination">
+        <a href="#">&lt;</a>
+        <a>1</a>
+        <a>2</a>
+        <a>3</a>
+        <a>4</a>
+        <a>5</a>
+        <a>&gt;</a>
+      </div>
+    </section>
+  </body>
+</html>
