@@ -20,6 +20,22 @@
   color: white;
 }
 
+#logo {
+  color: red;
+  background-color: white;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: relative;
+  left: 40%;
+}
+
+.logs {
+  font-size: 60px;
+  font-weight: 600;
+  padding: 10%;
+}
+
 input {
   padding: 0.8rem;
   margin: 1.5rem 1rem 1.5rem 1rem;
